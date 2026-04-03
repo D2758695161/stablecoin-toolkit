@@ -1,0 +1,23 @@
+{
+  "geography": "XX",
+  "name": "Country Name",
+  "stablecoin": {
+    "name": "Currency Stablecoin",
+    "symbol": "XXDR",
+    "decimals": 6
+  },
+  "compliance": {
+    "kyc_required": true,
+    "max_transaction_amount": 0,
+    "daily_limit": 0,
+    "notes": "Configure limits in 6-decimal units"
+  },
+  "reserves": {
+    "minimum_ratio_bps": 10000,
+    "accepted_assets": []
+  },
+  "fees": {
+    "mint_bps": 0,
+    "redeem_bps": 0
+  }
+}
